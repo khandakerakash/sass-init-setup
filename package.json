@@ -1,0 +1,17 @@
+{
+  "name": "sass-init",
+  "version": "1.0.0",
+  "description": "This is the sass initial setup",
+  "repository": {
+    "private": true
+  },
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "TGA",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}
